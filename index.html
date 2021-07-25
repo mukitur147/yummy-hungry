@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy And Hungry</title>
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom Styles  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Bar  -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+            <div class="container">
+                <i class="fas fa-pizza-slice me-2"></i>
+                <a class="navbar-brand" href="#">Yummy and Hungry</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Featured Restaurants</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Order Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder=" Search Food" aria-label="Search">
+                        <button class="custom-button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--------------------------------
+         -----------Carousel--------------
+        ---------------------------------->
+        <section class="container mb-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner bg-dark rounded">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-lg-7 p-5">
+                                <h1>Are You </h1>
+                                <h1>HUNGRY!!</h1>
+                                <h4> Click down below for order yummy foods</h4>
+                                <button class="custom-button">Order Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/cover-1.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-lg-7 p-5">
+                                <h1>Are You </h1>
+                                <h1>HUNGRY!!</h1>
+                                <h4> Click down below for order yummy foods</h4>
+                                <button class="custom-button">Order Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/cover-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-lg-7 p-5">
+                                <h1>Are You </h1>
+                                <h1>HUNGRY!!</h1>
+                                <h4> Click down below for order yummy foods</h4>
+                                <button class="custom-button">Order Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/cover-3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </header>
+
+
+    <main>
+        <!-----------------------------------------------
+            --------------------FAVOURITE FOODS------------
+          ------------------------------------------------>
+        <div class="fav-food-text">
+            <h2>Favourite Foods</h2>
+        </div>
+
+
+        <section class="container mb-5 d-flex align-items-center justify-center">
+
+            <div class="row row-cols-2 row-cols-md-3 g-4">
+                <div class="col-lg-2">
+                    <div class="card h-70 border-0 shadow-lg">
+                        <img src="images/favourite-foods/food-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwitch</h5>
+                            <span>Heathy Foodie</span>
+                            <br>
+                            <span>Price: 180/= </span>
+                            <button class="food-button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card h-70  border-0 shadow-lg">
+                        <img src="images/favourite-foods/food-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Thai Soup</h5>
+                            <span>Continental Cook</span>
+                            <br>
+                            <span>Price: 190/= </span>
+                            <button class="food-button mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card h-80 border-0 shadow-lg">
+                        <img src="images/favourite-foods/food-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Alfredo</h5>
+                            <span>Pizza Town</span>
+                            <br>
+                            <span>Price: 650/= </span>
+                            <button class="food-button mt-4">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card h-70 border-0 shadow-lg">
+                        <img src="images/favourite-foods/food-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chick Burger</h5>
+                            <span>Burger Labratory</span>
+                            <br>
+                            <span>Price: 270/= </span>
+                            <button class="food-button mt-4 ">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card h-70 border-0 shadow-lg">
+                        <img src="images/favourite-foods/food-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beef Steak</h5>
+                            <span>Steak Khabo</span>
+                            <br>
+                            <span>Price: 1250/= </span>
+                            <button class="food-button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card h-70 border-0 shadow-lg">
+                        <img src="images/favourite-foods/food-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Muffin Cake</h5>
+                            <span>Muffin Puffin</span>
+                            <br>
+                            <span>Price: 120/= </span>
+                            <button class="food-button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-----------------Bootstrap----------------->
+    <script src="css/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
